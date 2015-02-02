@@ -15,6 +15,7 @@ AC_SUBST(EXTRA_CFLAGS, ['-Wall -D_GNU_SOURCE -include configure.h'])
 
 # Checks for programs
 AC_PROG_CXX
+AM_PROG_AR
 AC_PROG_AWK
 AC_PROG_CC
 AC_PROG_CPP
