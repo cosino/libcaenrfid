@@ -1,0 +1,76 @@
+libcaenrfid (0.91.0) unstable; urgency=low
+
+  * libcaenrfid: add new functions
+  * libcaenrfid: memory leak if any error on messages sending removed
+  * libcaenrfid: invalid protocol data on caenrfid_complex_inventory()
+    fixed
+  * debian: package's dependencies fix up
+
+ -- Rodolfo Giometti <giometti@linux.it>  Wed, 07 Dec 2011 13:55:13 +0100
+
+libcaenrfid (0.90.0) unstable; urgency=low
+
+  * Avoid server's address modification in caenrfid_open()
+  * Add caenrfid_g2_kill_tag() function
+  * debian control: update package's dependecies
+
+ -- Rodolfo Giometti <giometti@linux.it>  Fri, 04 Nov 2011 15:44:32 +0100
+
+libcaenrfid (0.80.1) unstable; urgency=low
+
+  * caenrfid: invalid function name fixed
+
+ -- Rodolfo Giometti <giometti@linux.it>  Tue, 13 Sep 2011 17:34:48 +0200
+
+libcaenrfid (0.80.0) unstable; urgency=low
+
+  * caenrfid: add support for new function caenrfid_complex_inventory()
+  * debian: changelog for release 0.71.0
+  * debian: package dependencies fix up
+  * caenrfid: add support for TCP port
+  * caenrfid_proto: fix invalid AVP on power set/get
+  * caenrfid: add support for GPIO management
+  * libcaenrfid: moved to libavp
+  * debian: version is now (correctly) read into changelog
+
+ -- Rodolfo Giometti <giometti@linux.it>  Tue, 13 Sep 2011 15:20:47 +0200
+
+libcaenrfid (0.71.0) unstable; urgency=low
+
+  * configure: remove duplicated filename
+  * caenrfid: add support for new function caenrfid_complex_inventory()
+
+ -- Rodolfo Giometti <giometti@linux.it>  Fri, 29 Jul 2011 12:10:41 +0200
+
+libcaenrfid (0.70.1) unstable; urgency=low
+
+  * caenrfid_proto: invalid len and type handling fix up
+  * debian: invalid dependencies fix up
+  * caenrfid_proto: field "reserved" in AVP_COMMAND must be zero
+
+ -- Rodolfo Giometti <giometti@linux.it>  Thu, 23 Jun 2011 10:43:09 +0200
+
+libcaenrfid (0.70.0) unstable; urgency=low
+
+  * caenrfid.h: missing include file fixed
+  * libcaenrfid: add new functions
+  * libcaenrfid: add new functions
+  * Package caenrfidc-cgi moved into separate project
+
+ -- Rodolfo Giometti <giometti@linux.it>  Mon, 28 Feb 2011 18:26:29 +0100
+
+libcaenrfid (0.62.0) unstable; urgency=low
+
+  * Add define to disable __deprecated warning
+  * Use special define to disable __deprecated warning
+  * configure: configuration setting ENABLE_DEBUG fixed
+  * caenrfid_old: CAENRFID_InventoryTag fix up
+  * debian: dependencies fix up
+
+ -- Rodolfo Giometti <giometti@linux.it>  Wed, 23 Feb 2011 00:29:45 +0100
+
+libcaenrfid (0.0.1) unstable; urgency=low
+
+  * Initial import
+
+ -- Rodolfo Giometti <giometti@linux.it>  Mon, 22 Mar 2010 16:19:37 +0100

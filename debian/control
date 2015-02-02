@@ -1,0 +1,27 @@
+Source: libcaenrfid
+Section: libs
+Priority: standard
+Maintainer: Rodolfo Giometti <giometti@linux.it>
+Build-Depends: debhelper (>= 7), git-core (>= 1:1.7.1-1), libmsgbuff-dev (>= 0.60.0), libavp-dev (>= 0.70.0)
+Standards-Version: 3.8.1
+Homepage: http://www.cosino.io
+
+Package: libcaenrfid0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmsgbuff0 (>= 0.60.0), libavp0 (>= 0.70.0)
+Description: the client side of CAENRFID protocol
+ This package implements the client side of CAENRFID protocol and allow
+ developing of new applications.
+ .
+ You can get further info at http://www.cosino.io web site.
+
+Package: libcaenrfid-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmsgbuff-dev (>= 0.60.0), libavp-dev (>= 0.70.0)
+Description: the client side of CAENRFID protocol
+ This package implements the client side of CAENRFID protocol and allow
+ developing of new applications.
+ .
+ You can get further info at http://www.cosino.io web site.

@@ -1,0 +1,41 @@
+This library was debianized by:
+
+    Rodolfo Giometti <giometti@linux.it> on Tue Feb 22 12:55:25 CET 2011
+
+It was downloaded from:
+
+    http://github.com/cosino/libcaenrfid.git
+
+Upstream Author(s):
+
+    Rodolfo Giometti <giometti@linux.it>
+
+Copyright:
+
+    Copyright (C) 2011 Rodolfo Giometti <giometti@linux.it>
+    Copyright (C) 2011 CAEN RFID <info@caenrfid.it>
+
+License:
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation version 2
+    of the License.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Library General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+The Debian packaging
+
+    Copyright is (C) 2011, Rodolfo Giometti <giometti@linux.it>
+
+and is licensed under the GPL (see /usr/share/common-licenses/GPL-2).
